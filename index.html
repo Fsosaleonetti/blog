@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Juegos</title>
+  <link rel="shortcut icon" href="icon/mouse.png" type="image/png">
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Lista de Juegos</h1>
+    <nav>
+      <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="juegos.html">Juegos</a></li>
+          <li><a href="sobre-mi.html">Sobre Mí</a></li>
+          <li><a href="https://fsosaleonetti.github.io/linktree/" target="_blank">Linktree</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="bienvenida">
+    <h2>Bienvenido al mundo de los Videojuegos</h2>
+    <p>Descubre los juegos más imprescindibles para no aburrirte, reseñas detalladas y recomendaciones personales. </p>
+    <p> ¡Explora y disfruta de los videojuegos como nunca antes! </p>
+  </section>
+  <section class="contenedor-videojuegos">
+      <a href="red-dead-redemption-2.html" class="videojuego">
+          <img src="imagenes/reddead.jpg" alt="Red Dead Redemption 2">
+          <h2>Red Dead Redemption 2</h2>
+          <span class="btn">Ver reseña</span>
+      </a>
+
+      <a href="frostpunk-2.html" class="videojuego">
+          <img src="imagenes/frostpunk.avif" alt="Frostpunk 2">
+          <h2>Frostpunk 2</h2>
+          <span class="btn">Ver reseña</span>
+      </a>
+     
+      <a href="the-alters.html" class="videojuego">
+          <img src="imagenes/thealters.jpg" alt="The Alters">
+          <h2>The Alters</h2>
+          <span class="btn">Ver reseña</span>
+      </a>
+
+  </section>
+
+  <div style="text-align: center; margin: 5px ;">
+    <a href="juegos.html" class="btn">Ver más juegos</a>
+  </div>
+
+  <section class="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Libreta de Juegos</p>
+  </footer>
+</body>
+</html>
